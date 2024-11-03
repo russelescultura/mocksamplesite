@@ -1,0 +1,912 @@
+
+.full-width-container {
+  width: calc(100% - 200px); /* 80px on each side */
+  max-width: none;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.full-width-container2 {
+  width: calc(100% - 160px); /* 80px on each side */
+  max-width: none;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.button{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.btn-block{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 0%;
+}
+
+ .small-text {
+    font-size: 17px; /* Adjust the size as needed */
+    text-decoration: none; /* Removes underline */
+    font-weight: 400;
+    color: #000000; /* Set a color for the link */
+}
+
+.small-text:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
+.custom-img {
+    width: 80%; /* Make the image responsive */
+    height: auto; /* Maintain the aspect ratio */
+    max-width: 300px; /* Set a maximum width for the image */
+    margin-top: 40px;
+}
+.details{
+font-weight: 600;
+color: #999999!important; /* Set color for the 'See details' link */
+text-decoration: none;
+}
+.details:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #000000; /* Darken the color on hover */
+}
+.custom-img2 {
+    width: 80%; /* Make the image responsive */
+    height: auto; /* Maintain the aspect ratio */
+    max-width: 300px; /* Set a maximum width for the image */
+    margin-top: 71px;
+}
+
+section.full-width-container.card.shadow {
+    margin-bottom: 60px;
+}
+.full-width-section {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #333333; 
+}
+
+.container {
+    width: calc(100% - 160px); /* 80px on each side */
+    max-width: none;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+   
+}
+
+.custom-img3 {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure it doesn’t exceed the container width */
+    display: block; /* Removes any extra spacing from inline elements */
+    margin: 0 auto; /* Optional: centers the image inside the column */
+}
+
+.container2 {
+    width: calc(100% - 170px); /* 80px on each side */
+    max-width: none;
+    margin-left: 85px;
+    margin-right: 85px;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+.custom-img4 {
+    width: 30%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure it doesn’t exceed the container width */
+    display: block; /* Removes any extra spacing from inline elements */
+}
+section.full-width-footer.d-flex.flex-column.align-items-start {
+    background-color: #017cc2;
+
+    
+}
+.container3 {
+    width: calc(100% - 160px); /* 80px on each side */
+    max-width: none;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+p.footer.text {
+    color: #ffffff;
+    font-size: 15px;
+    word-spacing: 5px; /* Adjust the spacing as needed */
+}
+
+button.btn.btn-danger.custom-button {
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #a31717;
+    
+  }
+  
+  .header-icons.d-flex.align-items-center {
+    margin-right: 15px;
+  }
+  
+  .header-icons a .fa-facebook {
+      color: #1877F2; /* Facebook blue */
+  }
+  
+  .header-icons a .fa-twitter {
+      color: #1DA1F2; /* Twitter light blue */
+  }
+  
+  .header-icons a .fa-google-plus {
+      color: #DB4437; /* Google Plus orange */
+  }
+  
+  
+  .header {
+        padding: 20px 0;
+      }
+      .header-logo img {
+        max-width: 60px;
+      }
+      .header-title {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .header-contact {
+        font-size: 18px;
+      }
+      .header-icons a {
+        margin-right: 10px;
+        text-decoration: none;
+      }
+      .custom-gap {
+      margin-left: 20px; /* Adjust the value as needed */
+  
+    
+  
+  
+  }
+  .nav-item{
+    margin-left: 23px; 
+  }
+  
+  .header-contact.mb-2.mb-md-0.custom-gap.text-center.text-md-start {
+  
+    font-weight: 700;
+    font-size: 23px;
+    margin-right: 15px;
+    margin-top: 10px;
+  }
+  .header-title.ms-0.ms-md-5.custom-gap.mt-2.mt-md-0.text-center.text-md-start {
+    font-weight: 700;
+    font-size: 23px;
+    margin-left: 20px !important;
+  
+  }
+  
+  
+  
+  
+  .navbar-nav .nav-link {
+      color: #ffffff!important;
+      padding-top: 5px;
+      padding-bottom: 5px;
+  
+    }
+  
+    a.btn.btn-primary.btn-lg {
+    background-color: #017cc2;
+    border-radius: 0px;
+  }
+  button.btn.btn-primary.btn-block.w-100 {
+    background-color: #017cc2;
+  
+  }
+  
+    .navbar-nav .nav-link:hover {
+      color: #ada9a9!important;
+    }
+    .cta-section {
+        position: relative;
+        background-image: url('images/background car.png');
+        background-size: cover;
+        background-position: center;
+        height: 500px; /* Adjust as needed */
+        color: #000000;
+        text-align: start;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        padding: 50px 0;
+        padding-left: 100px;
+       
+      }
+  
+      h1.display-4 {
+        margin-bottom: 0px;
+        font-weight: 600;
+        font-size: 60px;
+      }
+  
+      .cta-section .cta-content {
+        z-index: 2;
+      }
+  
+      .cta-section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+      }
+  
+      .cta-section img.floating-image {
+        position: absolute;
+        bottom: 0;
+        z-index: 3;
+        width: auto; /* Maintain the original aspect ratio */
+        max-width: none; /* Ensure the image is not scaled down */
+        height: auto;
+        right: -200px;
+      }
+  
+      a.description {
+        text-decoration: none;
+        color: #000000;
+      }
+
+      @media (min-width: 1025px) and (max-width: 1152px) {
+        .header-contact.mb-2.mb-md-0.custom-gap.text-center.text-md-start {
+  
+          font-weight: 900;
+          font-size: 18px;
+          margin-right: 15px;
+          margin-top: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1072px) {
+        .header-contact.mb-2.mb-md-0.custom-gap.text-center.text-md-start {
+  
+          font-weight: 900;
+          font-size: 14px;
+          margin-right: 15px;
+          margin-top: 10px;
+        }
+
+
+      }
+
+
+
+      @media (max-width: 1123px) and (min-width: 992px) {
+
+        .navbar {
+          justify-content: center;
+        }
+        
+        .navbar-nav {
+          display: flex;
+          gap: 3px; /* Optional: Adjusts spacing between menu items */
+        }
+        
+        .navbar-collapse {
+          justify-content: center;
+        }
+        .navbar-nav .nav-item .nav-link {
+          font-size: 13px !important; /* Adjust font size for better readability */
+          text-align: center !important; /* Centers text within each menu item */
+        }
+        a.nav-link.active {
+          font-size: 13px !important; 
+        }
+        /* Additional padding or margin adjustments if needed */
+        .navbar-nav {
+          padding: 0 0px!important;
+        }
+      }
+
+
+      @media (min-width: 768px) and (max-width: 1024px) {
+  
+        .header-contact.mb-2.mb-md-0.custom-gap.text-center.text-md-start {
+          margin-right: 0px;
+        }
+  
+  
+    .header-section {
+      flex-direction: column !important; /* Stack items vertically */
+      align-items: flex-end !important; /* Align items to the right */
+    }
+    
+    .header-contact {
+      margin-bottom: 0px !important; /* Space below the contact info */
+    }
+  
+    .header-icons {
+      display: flex; /* Ensure icons are in a row */
+      margin-left: 0 !important; 
+      margin-right: 0px;
+      margin-top: 0px !important; /* Space between icons and button */
+    }
+  
+    .header-button {
+      padding: 0px !important /* Space between icons and button */
+    }
+  
+    /* Additional style for the button container */
+    .button-container {
+      display: flex; /* Ensure button stays in line with icons */
+      align-items: center; /* Vertically center the button */
+    }
+   
+    header.container {
+    width: calc(100% - 40px); /* Full width minus 10px margins on each side */
+    margin-left: 20px; /* Set left margin to 10px */
+    margin-right: 20px; /* Set right margin to 10px */
+  }
+  
+  .header-logo img {
+    max-width: 90px;
+  }
+  .header-title.ms-0.ms-md-5.custom-gap.mt-2.mt-md-0.text-center.text-md-start {
+    margin-left: 0px !important;
+    font-size: 25px !important;
+    font-weight: 700 !important;
+  }
+  .custom-button {
+      padding: 0px 20px; /* Adjust padding (top/bottom - left/right) */
+      background-color: #ac0606;
+  }
+  .d-flex.flex-column.flex-md-row.justify-content-end.align-items-center.mt-2 {
+    margin-top: 0px ! important;
+  }
+  .header-contact.mb-2.mb-md-0.custom-gap.text-center.text-md-start {
+    font-size: 25px;
+  }
+  button.navbar-toggler {
+      margin-left: auto; /* Pushes the button to the right */
+      display: flex; /* Ensures the toggle icon is centered within the button */
+      align-items: center;
+      color: #ffffff;
+      /* Centers the icon vertically */
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  .full-width-container2.mm {
+    width: calc(100% - 40px); /* Full width minus 10px margins on each side */
+    margin-left: 20px; /* Set left margin to 10px */
+    margin-right: 20px; /* Set right margin to 10px */
+    text-align: center;
+  
+  }
+  .floating-image {
+    display: none;
+  }
+  .cta-section {
+        position: relative;
+        background-image: url('images/back tab car.png');
+        background-size: cover;
+        background-position: center;
+        height: 500px; /* Adjust as needed */
+        color: #000000;
+        text-align: center;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        padding: 50px;
+        
+       
+      }
+  
+  
+  
+  
+      h1.display-4 {
+        font-size: 60px;
+      }
+      p.lead {
+        font-weight: 400;
+      }
+      a.btn.btn-primary.btn-lg {
+        padding: 10px 20px;
+        border-radius: 0%;
+      }
+  
+      .full-width-container .col-md-3 {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    section.full-width-container.button {
+      width: calc(100% - 40px); 
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-top: 20px;
+    }
+  
+    section.full-width-container.card.shadow {
+  
+      width: calc(100% - 40px); 
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  
+  .row.py-5.px-5 {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+  }
+  
+  h4.mb-4 {
+    font-weight: bolder! important;
+  }
+  a.small-text {
+    display: block;
+  }
+  .col-md-3.sub {
+  margin-bottom: 40px;
+  }
+  .custom-img2 {
+      margin-top: 30px!important;
+  }
+  
+  .container {
+    width: calc(100% - 40px)!important;
+    margin-left: 20px !important; 
+    margin-right: 20px !important;
+    margin-top: 20px !important;
+  
+  }
+  .full-width-section .row {
+      display: flex;
+      flex-direction: column;
+      gap: 50px; 
+  }
+  
+  .image1, .image2 {
+      width: 100%; 
+      display: flex;
+      justify-content: center; 
+  }
+  
+  .custom-img3 {
+      max-width: 100%; 
+      height: auto;
+  }
+  .container2 {
+    width: calc(100% - 60px)!important;
+    margin-left: 30px !important; 
+    margin-right: 30px !important;
+    margin-top: 50px !important;
+  
+  }
+  .col-md-6.year {
+    font-size: 23px;
+    padding-top: 5px;
+  }
+  img.custom-img4 {
+    width: 60%;
+  }
+  
+  p.footer.text {
+      color: #ffffff;
+      font-size: 25.7px!important;
+      word-spacing: 5px;
+      text-align: center;
+      padding-bottom: 30px;
+  }
+  .container3 {
+    width: calc(100% - 80px)!important;
+    margin-left: 40px !important; 
+    margin-right: 40px !important;
+    margin-top: 50px !important;
+  }
+  }
+  @media (max-width: 767px) {
+    header.container.full-width-container.my-4 {
+      width: calc(100% - 40px) !important; 
+      margin-left: 20px !important; 
+      margin-right: 20px !important; 
+    }
+  
+    
+    header .row {
+      display: grid;
+      grid-template-columns: 30% 70%; 
+      align-items: end;
+      gap: 0px; 
+    }
+  
+    /* Column 1: Logo only */
+    .header-logo {
+      justify-self: start; /* Center the logo in its column */
+      display: block;
+    }
+  
+    /* Hide the original title in column 1 */
+    .header-title {
+      display: none;
+    }
+  
+    /* Create a new title in column 2 */
+    .header-section::before {
+      content: 'Your Honda Dealer'; /* New title text */
+      display: block;
+      font-size: 1.5rem; /* Adjust font size for the new title */
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      justify-self: start;
+    }
+  
+    /* Column 2: New Title, Contact, Social Icons, and Button */
+    .header-section {
+      display: grid;
+      grid-template-rows: auto auto; /* New Title, Contact, Social + Button */
+      gap: 0px!important;/* Add space between each row */
+      justify-content: end! important;/* Align content to the left */
+    }
+  
+    /* Align elements in the second column */
+    .header-contact {
+      justify-self: end! important;
+    }
+  
+    /* Ensure social icons and button are on the same row */
+    .social-button-container {
+          display: flex; /* Use flexbox to keep everything in a row */
+          align-items: end; /* Center items vertically */
+          justify-content: end !important; /* Space out icons and button */
+          width: 100%; /* Take full width of the container */
+      }
+  
+      .header-icons {
+          display: flex; /* Ensure icons are in a row */
+          gap: 0px;
+         /* Space between icons */
+      }
+  
+      a.mx-2 {
+          margin-left: 0px!important; /* Optional spacing between icons and button */
+      }
+  
+      button.btn.btn-danger.custom-button {
+          padding: 0.25rem 1.5rem; /* Adjust padding if needed */
+      }
+  
+      .social-button-container.d-flex.justify-content-between.align-items-center.mt-2 {
+        margin-top: 0px! important;
+      }
+      .header-contact.mb-2.mb-md-0.custom-gap.text-center.text-md-start {
+        margin-bottom: 0px! important;
+        text-align: end!important;
+        font-size: 25.9px! important;
+        font-weight: 600! important;
+  
+      }
+      ::before {
+        margin-bottom: -7px! important;
+        text-align: end;
+        font-size: 27.3px! important;
+        font-weight: 700;
+  
+      }
+      
+      .header-logo img {
+        width: 100px;
+        max-width: 180px;
+      }
+  
+      button.navbar-toggler {
+      margin-left: auto; 
+      display: flex; 
+      align-items: center;
+      color: #ffffff;
+     
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  .full-width-container2.mm {
+    width: calc(100% - 20px); 
+    margin-left: 10px; 
+    margin-right: 10px; 
+    text-align: center;
+    margin-left: 0px;   
+  }
+  
+  .cta-section {
+      position: relative;
+      background-image: url('images/mobile back.png');
+      background-size: cover;
+      background-position: center;
+      height: 450px; 
+      color: #000000;
+      text-align: center;
+      display: flex;
+      align-items: start; 
+      justify-content: center; 
+      padding: 40px; 
+  }
+  
+  .floating-image {
+      display: none;
+  }
+  p.lead {
+        font-weight: 400;
+      }
+      a.btn.btn-primary.btn-lg {
+        padding: 10px 20px;
+        border-radius: 0%;
+      }
+  
+      .full-width-container .col-md-3 {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    section.full-width-container.button {
+      width: calc(100% - 40px); 
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-top: 20px;
+    }
+  
+    section.full-width-container.card.shadow {
+  
+  width: calc(100% - 40px); 
+  margin-left: 20px; 
+  margin-right: 20px;
+  margin-top: 20px;
+  }
+  
+  .row.py-5.px-5 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  h4.mb-4 {
+  font-weight: bolder! important;
+  }
+  h1.display-4 {
+        margin-bottom: 0px;
+        font-weight: 600;
+        font-size: 50px;
+      }
+  
+  
+  
+  a.small-text {
+  display: block;
+  }
+  .col-md-3.sub {
+  margin-bottom: 40px;
+  }
+  .custom-img2 {
+  margin-top: 30px!important;
+  }
+  
+  .container {
+    width: calc(100% - 20px)!important;
+    margin-left: 10px !important; 
+    margin-right: 10px !important;
+    margin-top: 20px !important;
+  
+  }
+  .full-width-section .row {
+      display: flex;
+      flex-direction: column;
+      gap: 50px; 
+  }
+  
+  .image1, .image2 {
+      width: 100%; 
+      display: flex;
+      justify-content: center; 
+  }
+  
+  
+  .container2 {
+    width: calc(100% - 120px)!important;
+    margin-left: 60px !important;
+    margin-right: 60px !important;
+    margin-top: 50px !important;
+  
+  
+  }
+  .col-md-6.year {
+    font-size: 23px;
+    padding-top: 5px;
+    text-align: center;
+    margin-bottom: 20px !important;
+  }
+  img.custom-img4 {
+    width: 90%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .col-md-6.d-flex.flex-column.align-items-end {
+    align-items: center !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  
+  p.footer.text {
+      color: #ffffff;
+      font-size: 25.7px!important;
+      word-spacing: 5px;
+      text-align: center;
+      padding-bottom: 30px;
+  }
+  .container3 {
+    width: calc(100% - 80px)!important;
+    margin-left: 40px !important; 
+    margin-right: 40px !important;
+    margin-top: 50px !important;
+  }
+  
+  .custom-img {
+      width: 100% !important;
+      height: auto !important;
+      max-width: 300px !important;
+      margin-top: 40px !important;
+  }
+  .custom-img2 {
+      width: 100% !important;
+      height: auto !important;
+      max-width: 300px !important;
+      margin-top: 71px !important;
+  }
+  
+      .col-md-6.year {
+          font-size: 23px;
+          padding-top: 5px;
+          text-align: center;
+      }
+  
+      p.footer.text {
+        font-size: 18px !important;
+      }
+  
+      section.full-width-container.button {
+        margin-bottom: 10px ! important;
+      }
+      .display-4 {
+      font-size: calc(2.17rem + 2.7vw);
+      font-weight: 400;
+      line-height: 1.2;
+  }
+  .header-icons.d-flex.align-items-center {
+    margin-right: 0px;
+  }
+  
+      .header-contact.mb-2.mb-md-0.custom-gap.text-center.text-md-start {
+          margin-top: 0px ! important;
+          text-align: end !important;
+          font-size: 25.9px ! important;
+          font-weight: 600! important;
+          margin-right: 0px;
+      }
+  
+  }
+
+  @media only screen and (max-width: 419px) {
+  
+    .header-contact.mb-2.mb-md-0.custom-gap.text-center.text-md-start {
+          margin-top: 0px ! important;
+          text-align: end !important;
+          font-size: 24px ! important;
+          font-weight: 600! important;
+          margin-right: 0px;
+      }
+      ::before {
+        margin-bottom: -7px ! important;
+        text-align: end;
+        font-size: 24.3px ! important;
+        font-weight: 700;
+  }}
+  
+  @media only screen and (max-width: 441px) {
+  
+    .header-contact.mb-2.mb-md-0.custom-gap.text-center.text-md-start {
+          margin-top: 0px ! important;
+          text-align: end !important;
+          font-size: 24.9px ! important;
+          font-weight: 600! important;
+          margin-right: 0px;
+      }
+      
+  }
+
+  @media only screen and (max-width: 429px) {
+  
+    .header-contact.mb-2.mb-md-0.custom-gap.text-center.text-md-start {
+          margin-top: 0px ! important;
+          text-align: end !important;
+          font-size: 22px ! important;
+          font-weight: 600! important;
+          margin-right: 0px;
+      }
+      
+  }
+  @media only screen and (max-width: 405px) {
+  
+  .header-contact.mb-2.mb-md-0.custom-gap.text-center.text-md-start {
+        margin-top: 0px ! important;
+        text-align: end !important;
+        font-size: 20.9px ! important;
+        font-weight: 600! important;
+        margin-right: 0px;
+    }
+    ::before {
+      margin-bottom: -7px ! important;
+      text-align: end;
+      font-size: 22.3px ! important;
+      font-weight: 700;
+  }
+    
+    
+  }
+
+  @media only screen and (max-width: 376px) {
+  
+    .header-contact.mb-2.mb-md-0.custom-gap.text-center.text-md-start {
+          margin-top: 0px ! important;
+          text-align: end !important;
+          font-size: 16.9px ! important;
+          font-weight: 600! important;
+          margin-right: 0px;
+      }
+      ::before {
+        margin-bottom: -7px ! important;
+        text-align: end;
+        font-size: 20px ! important;
+        font-weight: 700;
+    }
+    button.btn.btn-danger.custom-button {
+      padding: 0.25rem 1rem;
+      
+
+  }
+      
+    }
+  
+
+
+
+  .custom-img {
+    transition: transform 0.5s ease;
+  }
+ 
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(50px); 
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+ 
+  .animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px); 
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+  
